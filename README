@@ -1,0 +1,72 @@
+*********************************************
+* BaltoTab v0.0.2 (12/31/15):               *
+* An Alt-Tab Alternative for Windows 7      *
+* By:                                       *
+*     Michael Chadbourne                    *
+*********************************************
+
+"""
+Using Alt-Q, a mere key away from the familiar Alt-Tab wield the Endurance and
+Ingenuity of the legendary husky. Group your open windows into sortable tabs,
+controlling windows in a way which simulates virtual desktops.
+"""
+
+Installation:
+
+    The Installation tool generated with Visual Studio Installer projects
+    ‘BaltoInstaller.exe’ can be run to Automatically install the program which
+    can then be run from the start menu.
+
+Keys:
+
+    While BaltoTab is running and the GUI is inactive:
+        """""""""""""""""""""""""""""""""""""""""
+        | Alt+Q            :    activate GUI    |
+        """""""""""""""""""""""""""""""""""""""""
+    While BaltoTab GUI is Active:
+        """""""""""""""""""""""""""""""""""""""""
+        | W                :    selector-up     |
+        | A or Tab         :    selector-left   |
+        | S                :    selector-down   |
+        | D                :    selector-right  |
+        | Q or Enter       :    select          |
+        | E                :    alternate-select|
+        | ALT+Z            :    close           |
+        """""""""""""""""""""""""""""""""""""""""
+Uses:
+
+    Using WASD to move the target-selector, windows are brought to focus with
+    the select key; or focused using the alternate-select key. A focused item,
+    can be repositioned using the WASD keys, and placed in ‘Decks.’
+
+    New decks can be created using the select key while targeting the ‘+’ symbol
+    in the middle row; the content of the selected deck can be manipulated using
+    the bottom row. Windows are positioned in decks by focusing them and
+    repositioning them on top of the desired deck’s icon or directly into the 
+    intended position in the bottom row.
+
+    When a deck is selected using the primary-select key, the windows contained
+    within it are brought to focus with descending priority from left to right.
+    So that the left most windows will be on top of all the other windows.
+
+    When you have finished using BaltoTab use the ‘close’ command to Exit, (by 
+    default this is ALT+Z.)
+
+Known Bugs and Solutions:
+
+    After using the GUI for the first time, key presses are not captured
+    properly and system-pings begin to play on key-press. This can only be
+    stopped by closing BaltoTab using the close command, or ending the process
+    ‘BaltoTab’ through the Task-Manager (Ctrl-Shift-Esc.)
+
+Windows 10 Port:
+
+    “Although Windows 10 has virtual desktops, I’m going to work towards
+    shifting this into a windows 10 app as a learning exercise because
+    Windows 10 is now my Primary OS at home.” - Author
+
+- *  The Taskbars selection process must have changed as the program list is no
+     longer consistent.
+	 
+- *  Previous Errors Persist.
+        
